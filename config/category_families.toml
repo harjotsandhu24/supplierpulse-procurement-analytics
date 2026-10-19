@@ -1,0 +1,24 @@
+# Analyst-defined grouping of NIGP 3-digit commodity classes (first three digits of the
+# City of Austin COMMODITY code) into readable spend families.
+#
+# This is a documented judgement, not an official taxonomy. Class labels shown in the
+# outputs come from the dataset's own commodity descriptions; any class not listed
+# below falls into "Other goods". Edit and re-run the pipeline to regroup.
+#
+# Known compromise: class 269 (drugs and pharmaceuticals) is grouped with water treatment
+# because its focus-window spend is dominated by magnesium hydroxide, a treatment chemical.
+
+[families]
+"Fleet vehicles, parts & tires" = ["055", "060", "065", "070", "071", "072", "073", "556", "557", "558", "559", "863"]
+"Heavy equipment & tools" = ["020", "022", "025", "035", "120", "445", "515", "545", "560", "755", "760", "765", "895"]
+"Electrical & utility equipment" = ["280", "285", "287", "290", "690", "691", "830"]
+"IT hardware & software" = ["203", "204", "205", "206", "207", "208", "209", "880", "883"]
+"Radio, telecom & video" = ["655", "725", "726", "730", "803", "838", "839", "840"]
+"Fuel & lubricants" = ["370", "405"]
+"Water & wastewater treatment" = ["180", "190", "210", "245", "269", "271", "315", "658", "659", "670", "720", "885", "890"]
+"Road & construction materials" = ["135", "150", "155", "330", "400", "540", "570", "630", "745", "750", "770", "790"]
+"Public safety, medical & lab" = ["175", "193", "257", "260", "270", "340", "345", "415", "435", "465", "470", "475", "490", "493", "495", "680", "875", "898"]
+"Traffic, signage & parking" = ["255", "550", "801"]
+"Facilities, MRO & janitorial" = ["010", "031", "040", "105", "110", "192", "318", "320", "365", "430", "450", "460", "485", "486", "640", "665", "735", "815", "820", "825", "832"]
+"Apparel & PPE" = ["200", "201", "520", "800", "850"]
+"Office, furniture & publications" = ["050", "052", "080", "250", "310", "395", "420", "425", "525", "600", "605", "610", "615", "645", "715", "785"]

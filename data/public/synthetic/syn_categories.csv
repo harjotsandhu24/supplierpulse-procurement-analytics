@@ -1,0 +1,7 @@
+category_id,category_name,standard_lead_days,data_origin
+ELEC,Electrical components,14,SYNTHETIC
+FLEET,Fleet parts,10,SYNTHETIC
+MRO,MRO & facilities supplies,7,SYNTHETIC
+PPE,Safety & PPE,9,SYNTHETIC
+CHEM,Water treatment chemicals,12,SYNTHETIC
+IT,IT peripherals,8,SYNTHETIC

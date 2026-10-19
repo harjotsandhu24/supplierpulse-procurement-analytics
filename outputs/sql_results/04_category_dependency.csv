@@ -1,0 +1,80 @@
+nigp_class,class_label,category_spend,vendor_count,top_vendor,top_vendor_share,hhi,dependency_flag
+405,"405 Fuel, Oil, Grease and Lubricants",86487318.810000,14,Pinnacle Petroleum Incorporated,0.922563,8525.023735,R1 single-vendor dependency
+570,"570 Steel, Reinforcing, Bars and Rods",20971609.930000,19,"Posillico Civil, Inc",0.905131,8213.384420,R1 single-vendor dependency
+205,"205 Monitors, Color and Monochrome, Environmentally Certified",8870391.850000,10,DELL MARKETING LP,0.975946,9526.238166,R1 single-vendor dependency
+615,"615 Office Supplies, General",5591424.550000,9,"Summus Industries, Inc.",0.996692,9933.975167,R1 single-vendor dependency
+325,325 Dog and Cat Food,2460983.270000,2,Sageline Inc,1.000000,9999.999919,R1 single-vendor dependency
+470,470 Hospital / Resident Special Equip for Handicapped / Disabled,1843654.450000,2,Howmedica Osteonics Corp,0.992771,9856.468141,R1 single-vendor dependency
+070,070 Automotive Vehicles and Transport Equip (including Trailers),287500379.360000,47,SILSBEE FORD INC,0.295877,1420.917749,Not flagged
+285,285 Electrical Equipment and Supplies (except Cable and Wire),260249139.890000,118,TEXAS ELECTRIC COOPERATIVES,0.202385,1343.975331,Not flagged
+885,885 Ferric Sulfate (feso4),66313009.790000,35,"LHOIST NORTH AMERICA OF TEXAS, LLC",0.297003,1391.055960,Not flagged
+725,"725 Radio Communication, Telephone, and Telecommunicat",62672624.840000,65,MOTOROLA SOLUTIONS INC,0.696558,5223.936093,R2 highly concentrated
+204,204 Computer Hardware and Peripherals for Microcompute,59785093.640000,82,DELL MARKETING LP,0.288870,1873.841022,Not flagged
+208,208 Computer Software for Microcomputers (preprogrammed),55796622.730000,151,"OverDrive, Inc.",0.130024,564.421688,Not flagged
+890,"890 Water Supply, Groundwater, Sewage Treatment, Related Equip",52811645.780000,93,"Ferguson US Holdings, Inc",0.232776,1138.748782,Not flagged
+545,"545 Impact Tools, Air Powered (not Road Building)",51790623.580000,32,W W GRAINGER INC,0.628061,4440.828377,R2 highly concentrated
+206,206 Computer Hardware / Peripherals for Mini/mainframe Computers,42185564.190000,46,CONTROL PANELS USA INC,0.237132,1470.548303,Not flagged
+655,655 Photo Equip - Film and Supplies,41904761.760000,20,"Axon Enterprise, Inc.",0.568816,3526.999573,R2 highly concentrated
+745,"745 Asphaltic Concrete, Hot Mix, in Accordance with It",41641930.490000,7,Asphalt Inc LLC,0.802265,6820.235536,R2 highly concentrated
+200,200 Clothing: Athletic / Casual / Dress / Uniform / Wthr / Work,31574336.800000,44,"Galls Parent Holdings, LLC",0.483839,2717.160367,R2 highly concentrated
+060,060 Automotive Maintenance Items and Repair/replacemen,29091104.680000,97,LEIF JOHNSON FORD II LTD,0.134208,747.885906,Not flagged
+550,550 Parking Meters and Area Control Equipment,27738649.700000,77,PARADIGM TRAFFIC SYSTEMS INC,0.132872,834.224906,Not flagged
+750,750 Road and Highway Building Materials (not Asphaltic,25514000.250000,21,VULCAN CONSTRUCTION MATERIALS LLC,0.234080,1446.886389,Not flagged
+269,269 Drugs and Pharmaceuticals,24693887.540000,26,PREMIER MAGNESIA LLC,0.520349,3788.944686,R2 highly concentrated
+475,"475 Hospital, Surgical, and Related Medical Accessorie",22741096.660000,35,BOUND TREE MEDICAL L L C,0.382177,2071.792096,Not flagged
+680,680 Police Equipment,20282628.880000,83,"Preferred Technologies, LLC",0.183604,1092.204876,Not flagged
+485,"485 Janitorial Supplies, General Line",16453838.370000,21,"Ferguson US Holdings, Inc",0.686581,5419.184834,R2 highly concentrated
+340,340 Fire Protection Equipment and Supplies,16158483.350000,69,MES I Acquisition Inc,0.285170,1324.885408,Not flagged
+650,"650 Park, Playground, Rec Area and Swimming Pool Equip Supplies",15178840.630000,30,Paradigm Contracting LLC,0.382376,1848.428289,Not flagged
+760,"760 Tractor, Loader, Backhoe, Medi",13031261.560000,18,Offutt Companies Inc.,0.605161,3922.537540,R2 highly concentrated
+450,450 Hardware and Related Items,12201740.790000,58,TOTER LLC,0.700871,5152.755278,R2 highly concentrated
+715,"715 Publications, A/v Matls, Books, Textbooks",11813649.430000,46,BTAC Acquisition Corp.,0.425840,2615.056962,R2 highly concentrated
+425,425 Furniture: Office,11531695.200000,33,Alfred Williams & Company,0.341112,1798.040728,Not flagged
+245,"245 Sodium Hypochlorite, Concentrated, Liquid",11476889.200000,5,PVS DX INC,0.729548,5895.515089,R2 highly concentrated
+863,863 Tires and Tubes,10767513.130000,5,YOUNGBLOOD AUTOMOTIVE & TIRE LLC,0.820637,6924.750675,R2 highly concentrated
+765,765 Road and Highway Equipment,10161385.500000,35,TYMCO INC,0.371545,1833.911125,Not flagged
+035,035 Baggage Handling Equipment and Parts,9547345.410000,44,"HELICOPTER SERVICES, INC.",0.566440,3424.844623,R2 highly concentrated
+670,"670 Plumbing Equipment, Fixtures, and Supplies",8978505.520000,46,RUTS Construction LLC,0.766910,5969.718527,R2 highly concentrated
+445,"445 Hand Tools (powered and Non-powered), Accessories",8250436.910000,24,W W GRAINGER INC,0.898992,8099.434897,R2 highly concentrated
+330,330 Fencing,7670927.990000,11,"Tony Parent Enterprises, Inc.",0.832727,7102.292661,R2 highly concentrated
+465,"465 Defibrillator, External, Automatic (aed), Including Parts An",7361979.040000,21,ZOLL Medical Corporation,0.683847,4937.840134,R2 highly concentrated
+720,720 Pumping Equipment and Accessories,7095753.240000,57,"Siddons-Martin Emergency Group, LLC",0.144600,701.458014,Not flagged
+155,"155 Sheds, Storage",7026478.460000,16,"ACS Acquisitions, Inc.",0.312465,2621.724670,R2 highly concentrated
+020,020 Irrigation Equipment and Supplies,6958847.960000,18,COUFAL-PRATER EQUIPMENT LLC,0.507123,3221.215890,R2 highly concentrated
+065,065 Refuse/garbage Collection Bodies and Parts,6729477.710000,34,TEXAN WASTE EQUIPMENT INC,0.577387,3569.535855,R2 highly concentrated
+658,"658 Pipe, Tubing, and Accessories (not Fittings)",6564335.310000,11,SANTA CLARA CONSTRUCTION LTD,0.724863,5623.747365,R2 highly concentrated
+190,190 Sodium Phosphates and Polyphosphates,5875144.010000,9,Condy Holdings LLC,0.775455,6239.513449,R2 highly concentrated
+150,"150 Cement, Portland (for Use in Ordinary Construction",5439000.170000,15,DENUCCI CONSTRUCTORS L L C,0.884850,7921.146946,R2 highly concentrated
+120,"120 Boats, Motors, and Marine Equipment",5348677.100000,20,"Oshkosh AeroTech, LLC",0.417733,2854.509176,R2 highly concentrated
+801,"801 Signs, Sign Matls, Sign Making Equip, and Related Supplies",5292983.770000,37,Vulcan Inc,0.383822,2164.964445,Not flagged
+840,840 Television Equipment and Accessories,4884304.200000,32,"ITS Plus, Inc.",0.337602,1859.161465,Not flagged
+830,"830 Tanks (any Composition): Mobile, Stationary, and U/g Types",4588341.340000,7,"SPATCO Energy Solutions, LLC",0.428413,3218.413322,R2 highly concentrated
+037,"037 Amusement, Decorations, Entertainment, Toys, Etc.",4281845.140000,41,"GOLF CONNECTIONS, LLC",0.355857,2158.991944,Not flagged
+560,"560 Straps, Tie Down Ratchet W/ ""u"" Hook",4145407.310000,20,AMERICAN MATERIAL HANDLING INC,0.395620,3012.590865,R2 highly concentrated
+515,515 Lawn Maint Equip and Accy,3895092.850000,14,PROFESSIONAL TURF PRODUCTS L P,0.783820,6422.652421,R2 highly concentrated
+207,207 Computer Accessories and Supplies,3688425.820000,33,DELL MARKETING LP,0.640085,4333.810729,R2 highly concentrated
+430,"430 Welding and Industrial Gases: Acetylene, Argon, Ca",3588030.020000,9,Linde Inc.,0.621178,4869.842284,R2 highly concentrated
+875,875 Veterinary Equip / Supplies,3288017.930000,7,"Midwest Veterinary Supply, Inc.",0.551919,3698.438480,R2 highly concentrated
+055,"055 Automotive Accessories for Automobiles, Buses, Tru",3069449.750000,31,Meridian Rapid Defense Group LLC,0.254693,1581.072736,Not flagged
+175,175 Chemical Laboratory Equipment and Supplies,3061395.140000,28,HACH COMPANY,0.383500,1865.726663,Not flagged
+210,210 Box Water Meter High Density Polyethytlene for Single Meter,2990921.540000,12,CASH CONSTRUCTION CO INC,0.784695,6348.399906,R2 highly concentrated
+287,"287 Electronic Equip, Parts, and Accy",2816958.520000,27,INSIGHT PUBLIC SECTOR INC,0.399415,2961.824823,R2 highly concentrated
+805,"805 Sporting Goods, Athletic Equip and Athletic Facility Equip",2797858.920000,19,ACUSHNET COMPANY,0.603974,4155.908906,R2 highly concentrated
+800,800 Shoes and Boots,2682274.250000,4,RED WING BRANDS OF AMERICA INC,0.581910,4715.493324,R2 highly concentrated
+220,"220 Controlling, Indicating, Measuring Instruments and Supplies",2676906.800000,48,HIGH SIERRA ELECTRONICS INC,0.269925,1279.824279,Not flagged
+493,"493 Lab Equip, Accy Supplies: Biochem, Chem, Science, Etc.",2570050.800000,19,EWT HOLDINGS III CORP,0.298577,1759.244180,Not flagged
+730,730 Radio Communication and Telecommunication Equip,2504503.910000,13,"Rubicon Global, LLC",0.504313,3419.519236,R2 highly concentrated
+031,"031 Filters, Air Conditioning/furnace (disposable Type",2458789.510000,52,"Air Relief Technologies, Inc.",0.372861,1657.734487,Not flagged
+280,280 Electrical Cables and Wires (not Electronic),2443245.410000,28,"Southwire Company, LLC",0.503071,3217.805040,R2 highly concentrated
+675,"675 Insecticides, Dry",2388509.170000,6,Marubeni America Corporation,0.517504,3534.207532,R2 highly concentrated
+075,075 Training Aids and Instructional Equip. and Supplie,2294408.610000,38,W W GRAINGER INC,0.172910,987.881729,Not flagged
+335,335 Fertilizers and Soil Conditioners,2258141.460000,4,"Shrieve Chemical Company, LLC",0.734813,5840.286731,R2 highly concentrated
+345,345 First Aid and Safety Equipment and Supplies,2219334.530000,45,Cornish Medical Electronics Corporation of Texas,0.260898,1196.390136,Not flagged
+209,209 Computer Software for Mini/mainframe Computers (preprog),2138324.260000,22,"KIMLEY-HORN AND ASSOCIATES, INC",0.405797,2668.603248,R2 highly concentrated
+110,"110 Parts and Accessories, Conveyor Belt",1756024.460000,12,JMR Technology Inc.,0.452082,2982.048269,R2 highly concentrated
+690,"690 Transmitters, Pressure",1556000.380000,14,Genserve LLC,0.595314,4219.203374,R2 highly concentrated
+420,"420 Furniture: Cafeteria, Chapel, Dorm, House, Library, School",1483013.440000,16,"Library Interiors Of Texas, LLC",0.575367,3738.431255,R2 highly concentrated
+855,"855 Stages, Theatre (all Types)",1248867.870000,9,"Werd Media Labs, LLC",0.754658,6127.384312,R2 highly concentrated
+790,790 Top Soil and Fill Dirt (for Mulch See Class 335),1172267.820000,13,MONDO GARDENS,0.521896,3237.720493,R2 highly concentrated
+838,"838 Parts and Accessories, Telecommunication (panduit or Equal)",1091650.070000,14,"Brymer Communication Services, LLC",0.655961,4632.363002,R2 highly concentrated
+625,"625 Optical Equipment, Accessories, and Supplies",1016912.960000,9,"Echo Healthcare, Inc.",0.780086,6223.750416,R2 highly concentrated

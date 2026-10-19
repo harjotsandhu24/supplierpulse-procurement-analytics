@@ -1,0 +1,106 @@
+# SupplierPulse configuration. All paths are relative to the project root.
+# Changing a value here changes every downstream output (tables, SQL database,
+# workbook, dashboard, brief) on the next `python -m supplierpulse.pipeline` run.
+
+[paths]
+raw_dir = "data/raw"
+public_dir = "data/public"
+processed_dir = "data/processed"
+tables_dir = "outputs/tables"
+deliverables_dir = "deliverables"
+docs_dir = "docs"
+screenshots_dir = "docs/screenshots"
+
+[source.austin]
+# City of Austin Open Data: "Purchase Order Quantity Price detail for Commodity/Goods procurements"
+dataset_id = "3ebq-e9iz"
+landing_page = "https://data.austintexas.gov/d/3ebq-e9iz"
+download_url = "https://data.austintexas.gov/api/views/3ebq-e9iz/rows.csv?accessType=DOWNLOAD"
+terms_url = "https://data.austintexas.gov/d/2z87-8uh7"
+raw_filename = "austin_po_lines_raw.csv"
+# Public, address-free snapshot committed to the repository so results are reproducible
+# even though the source portal is rebuilt weekly.
+snapshot_filename = "austin_po_lines_snapshot.parquet"
+
+[analysis]
+# City of Austin fiscal year runs October 1 - September 30 (FY2026 = Oct 2025 - Sep 2026).
+fiscal_year_start_month = 10
+focus_fy_start = 2022
+focus_fy_end = 2026
+history_fy_start = 2010
+
+[concentration]
+# Category (NIGP class) dependency screens, applied to focus-window spend.
+min_category_spend = 1_000_000      # USD; smaller categories are not screened
+single_vendor_share = 0.90          # top vendor share at/above which a category is flagged single-vendor dependent
+# A dependency is "recurring" when the top vendor supplied the class on many orders across years;
+# otherwise the concentration may come from a few large one-off (e.g. project) purchases.
+recurring_min_orders = 12
+recurring_min_fiscal_years = 3
+hhi_highly_concentrated = 2500      # US DOJ/FTC "highly concentrated" threshold (0-10,000 scale)
+vendor_share_of_total = 0.05        # a vendor holding >= 5% of all focus-window spend is a dependency exposure
+# Recurring standalone buying: categories bought repeatedly through one-off contracts (CT) or POs
+# rather than delivery orders against a master agreement are candidates for a term agreement.
+min_spend_without_agreement = 250_000  # USD of standalone spend in the class
+min_standalone_orders = 10             # distinct standalone orders in the class
+
+[actions]
+high_priority_category_spend = 10_000_000   # R1: High priority only if recurring and at least this spend
+min_price_action_spend = 250_000            # R6: year-over-year increases become an action only above this spend
+high_priority_price_spend = 5_000_000
+
+[price]
+# Like-for-like price comparisons. A comparable item is the same commodity code, the
+# same unit of measure and the same normalised item description, compared within the same fiscal year.
+min_lines_per_item_year = 4
+above_baseline_ratio = 1.5          # unit price >= 1.5x the item-year median is flagged
+entry_error_low_ratio = 0.25        # unit price <= 0.25x median is treated as a probable unit/entry inconsistency
+entry_error_high_ratio = 10.0       # unit price >= 10x median is treated as a probable unit/entry inconsistency
+
+[synthetic]
+seed = 20261015
+as_of_date = "2026-09-30"
+start_date = "2024-10-01"
+n_purchase_orders = 2600
+on_time_grace_days = 0
+in_full_tolerance = 0.0             # 0 = the full ordered quantity must arrive
+
+[scorecard]
+# Component weights (must sum to 1). Each component is scaled 0-100 between a "poor" and a "target" value.
+weight_otif = 0.40
+weight_quality = 0.25
+weight_leadtime_consistency = 0.20
+weight_lateness = 0.15
+otif_target = 0.95
+otif_poor = 0.70
+reject_rate_target = 0.005
+reject_rate_poor = 0.05
+leadtime_sd_target = 2.0            # days; standard deviation of actual lead time on completed lines
+leadtime_sd_poor = 7.0
+avg_days_late_target = 0.0
+avg_days_late_poor = 5.0
+min_lines_ranked = 30               # due lines needed for a ranked score
+min_lines_provisional = 10          # 10-29 due lines: provisional score, not ranked; <10: insufficient evidence
+tier_preferred = 85
+tier_acceptable = 70
+tier_improve = 55
+
+[exceptions]
+chronic_late_otif = 0.80
+min_lines_for_rate_flags = 30
+unstable_leadtime_sd = 5.0          # days
+min_completed_for_variability = 20 # completed lines needed before lead-time variability is assessed
+incomplete_in_full_rate = 0.90
+quality_reject_rate = 0.02
+deterioration_points = 0.10
+ppv_flag_ratio = 0.10               # paid price >= 10% above contracted standard price
+high_dependency_category_share = 0.60
+high_dependency_total_share = 0.15
+medium_dependency_category_share = 0.35
+medium_dependency_total_share = 0.08
+
+[scenario]
+# Explicit, editable modelling assumptions. Results are modelled opportunities, not realised savings.
+cost_per_late_line = 150.0          # USD of expediting / disruption handling per late PO line (assumption)
+reallocation_shares = [0.0, 0.10, 0.20, 0.30, 0.40, 0.50]
+price_capture_rates = [0.25, 0.50, 1.00]

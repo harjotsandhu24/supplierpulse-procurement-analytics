@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# Raw third-party download (100 MB; rebuild with `python -m supplierpulse.ingest --download --snapshot`)
+data/raw/
+# Generated working database (rebuilt by the pipeline)
+data/processed/
+*.duckdb
+*.duckdb.wal
+
+# Local / private
+private/
+.env
+*.local.*
+~$*.xlsx
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

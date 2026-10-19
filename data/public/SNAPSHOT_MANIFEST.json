@@ -1,0 +1,61 @@
+{
+  "dataset": "Purchase Order Quantity Price detail for Commodity/Goods procurements",
+  "publisher": "City of Austin, Texas (Austin Financial Services) via data.austintexas.gov",
+  "landing_page": "https://data.austintexas.gov/d/3ebq-e9iz",
+  "download_url": "https://data.austintexas.gov/api/views/3ebq-e9iz/rows.csv?accessType=DOWNLOAD",
+  "terms_of_use": "https://data.austintexas.gov/d/2z87-8uh7",
+  "license_summary": "City of Austin Open Data Terms of Use: data 'offered free and without restriction'; attribution requested, not required.",
+  "source_data_build_dates": [
+    "10/05/2026"
+  ],
+  "award_date_range": [
+    "2009-10-01",
+    "2026-09-30"
+  ],
+  "raw_rows": 321683,
+  "raw_sha256": "63f425dbd62ee94be1fcc9e667c1c4daeeba0de7141413254306b3edd7b3968b",
+  "snapshot_file": "austin_po_lines_snapshot.parquet",
+  "snapshot_rows": 321683,
+  "snapshot_columns": [
+    "SOURCE_ROW",
+    "PURCHASE_ORDER",
+    "AWARD_DATE",
+    "VENDOR_ID",
+    "VENDOR_COUNTRY",
+    "COMMODITY",
+    "QUANTITY",
+    "UNIT_OF_MEASURE",
+    "UNIT_PRICE",
+    "ITM_TOT_AM",
+    "HAS_MASTER_AGREEMENT",
+    "ITEM_TEXT_KEY",
+    "RAW_EXACT_DUPLICATE",
+    "DATA_BUILD_DATE"
+  ],
+  "source_columns_not_published": [
+    "COMMODITY_DESCRIPTION",
+    "EXTENDED_DESCRIPTION",
+    "UNIT_OF_MEAS_DESC",
+    "MASTER_AGREEMENT",
+    "CONTRACT_NAME",
+    "VENDOR_CODE",
+    "LGL_NM",
+    "AD_LN_1",
+    "AD_LN_2",
+    "CITY",
+    "ST",
+    "ZIP"
+  ],
+  "transformations": [
+    "VENDOR_CODE replaced by VENDOR_ID = 'V' + first 10 hex characters of SHA-256(VENDOR_CODE)",
+    "MASTER_AGREEMENT reduced to HAS_MASTER_AGREEMENT (true/false)",
+    "EXTENDED_DESCRIPTION / COMMODITY_DESCRIPTION reduced to ITEM_TEXT_KEY (SHA-256 of normalised text) only for texts on config/reviewed_item_texts.csv; empty otherwise",
+    "RAW_EXACT_DUPLICATE computed on all 21 source columns before any column was dropped",
+    "SOURCE_ROW added (1-based row number in the downloaded CSV)"
+  ],
+  "lines_with_reviewed_item_text": 5466,
+  "reviewed_item_texts": 153,
+  "reviewed_vendor_names": 170,
+  "vendors_in_snapshot": 5771,
+  "snapshot_created_utc": "2026-10-16T02:41:38Z"
+}

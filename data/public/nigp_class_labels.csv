@@ -1,0 +1,212 @@
+nigp_class,source_label,label_source
+000,DEFAULT FIXED ASSET,most common item description in class
+005,CLOTH EMERY MEDIUM,most common item description in class
+010,"INSULATION, THERMAL, BLANKET",most common item description in class
+015,"STENCILS, PLASTIC COATED THERMAL (ONLY) MIMEO",most common item description in class
+019,"Fruits, Deciduous Tree",most common item description in class
+020,Irrigation Equipment and Supplies,most common item description in class
+022,AGRICULTURAL IMPLEMENT AND ACCESSORY PARTS,class title in source data
+025,AIR COMPRESSORS AND ACCESSORIES,class title in source data
+031,"Filters, Air Conditioning/Furnace (Disposable Type",most common item description in class
+035,Baggage Handling Equipment and Parts,most common item description in class
+037,"AMUSEMENT, DECORATIONS, ENTERTAINMENT, TOYS, ETC.",class title in source data
+040,Pet Waste Stations and Supplies,most common item description in class
+045,"APPLIANCES AND EQUIPMENT, HOUSEHOLD TYPE",class title in source data
+050,"Picture Frames and Framing Supplies: Mat Cutters,",most common item description in class
+052,Photographs,most common item description in class
+055,"AUTOMOTIVE ACCESSORIES FOR AUTOMOBILES, BUSES, TRU",class title in source data
+060,AUTOMOTIVE MAINTENANCE ITEMS AND REPAIR/REPLACEMEN,class title in source data
+065,Refuse/Garbage Collection Bodies and Parts,most common item description in class
+070,AUTOMOTIVE VEHICLES AND TRANSPORT EQUIP (INCLUDING TRAILERS),class title in source data
+071,"UTILITY VEHICLES, HYBRID ELECTRIC, LIGHT DUTY, 4 DOOR",most common item description in class
+072,"TRUCK CAB AND CHASSIS, 19,000 GVWR, DIESEL AND GASOLINE",most common item description in class
+073,"TRAILERS, MISCELLANEOUS",most common item description in class
+075,Training Aids and Instructional Equip. and Supplie,most common item description in class
+080,"Nameplates, Plastic",most common item description in class
+085,Soil Erosion Sheeting Material (To Include Silt Fe,most common item description in class
+095,"BOTTLES, DISPENSER",most common item description in class
+100,Freight and Cargo Containers (Shipping) (See Class,most common item description in class
+105,Ball Bearings and Parts,most common item description in class
+110,"PARTS AND ACCESSORIES, CONVEYOR BELT",most common item description in class
+115,"Biochemical Reagents and Tests: Antibiotic Assays,",most common item description in class
+120,"BOATS, MOTORS, AND MARINE EQUIPMENT",class title in source data
+125,"Adhesives, Compounds, Glues, Pastes, Glue Pots, an",most common item description in class
+135,"Stone, Building (Except Marble)",most common item description in class
+140,"Fibers, Palmetto",most common item description in class
+145,Paint and Varnish,most common item description in class
+150,"CEMENT, PORTLAND (FOR USE IN ORDINARY CONSTRUCTION",most common item description in class
+155,"Sheds, Storage",most common item description in class
+160,"STRAPPING, BOX, PLASTIC (FOR PACKAGING PROCESSED M",most common item description in class
+165,"CAFETERIA AND KITCHEN EQUIPMENT, COMMERCIAL",class title in source data
+175,CHEMICAL LABORATORY EQUIPMENT AND SUPPLIES,class title in source data
+180,"SODIUM CARBONATE, (LIGHT SODA ASH)",most common item description in class
+190,Sodium Phosphates and Polyphosphates,most common item description in class
+192,"CLEANING COMPOSITIONS, DETERGENTS, SOLVENTS, AND S",class title in source data
+193,HIV TESTING KITS AND SUPPLIES,most common item description in class
+195,"Watches: Pocket, Wrist, etc.",most common item description in class
+200,CLOTHING: ATHLETIC / CASUAL / DRESS / UNIFORM / WTHR / WORK,class title in source data
+201,CLOTHING ACCESSORIES (SEE CLASS 800 FOR SHOES AND,class title in source data
+203,"COMPUTER ACCESSORIES AND SUPPLIES, ENVIRONMENTALLY CERTIFIED",class title in source data
+204,COMPUTER HARDWARE AND PERIPHERALS FOR MICROCOMPUTE,class title in source data
+205,"Monitors, Color and Monochrome, Environmentally Certified",most common item description in class
+206,COMPUTER HARDWARE / PERIPHERALS FOR MINI/MAINFRAME COMPUTERS,class title in source data
+207,COMPUTER ACCESSORIES AND SUPPLIES,class title in source data
+208,COMPUTER SOFTWARE FOR MICROCOMPUTERS (PREPROGRAMMED),class title in source data
+209,COMPUTER SOFTWARE FOR MINI/MAINFRAME COMPUTERS (PREPROG),class title in source data
+210,BOX WATER METER HIGH DENSITY POLYETHYTLENE FOR SINGLE METER,most common item description in class
+220,"CONTROLLING, INDICATING, MEASURING INSTRUMENTS AND SUPPLIES",class title in source data
+225,"COOLERS, DRINKING WATER (WATER FOUNTAINS)",class title in source data
+232,Kits and Supplies: String and Wire Art,most common item description in class
+233,Kilns and Furnaces (For Ceramic and Enameling) and,most common item description in class
+240,"CUTLERY, COOKWARE, DISHES, GLASSES, UTENSILS, SUPPLIES",class title in source data
+245,"SODIUM HYPOCHLORITE, CONCENTRATED, LIQUID",most common item description in class
+250,"Tests, Answer Sheets, Scoring Keys, etc. (For EDP",most common item description in class
+255,SIGNAGE,most common item description in class
+257,"DEFENSE SYSTEM AND HOMELAND SECURITY EQUIPMENT, WEAPONS AND",class title in source data
+260,"B002 Sterile Gauze Sponge,  4 inch x 4 inch. 12 ply , 2 per",most common item description in class
+265,"Material, Upholstery (Fabric), Furniture and Auto",most common item description in class
+269,DRUGS AND PHARMACEUTICALS,class title in source data
+270,VACCINES,most common item description in class
+271,"WATER, DISTILLED",most common item description in class
+280,ELECTRICAL CABLES AND WIRES (NOT ELECTRONIC),class title in source data
+285,ELECTRICAL EQUIPMENT AND SUPPLIES (EXCEPT CABLE AND WIRE),class title in source data
+287,"ELECTRONIC EQUIP, PARTS, AND ACCY",class title in source data
+290,ENERGY COLLECTING EQUIPMENT AND ACCESSORIES: SOLAR AND WIND,class title in source data
+295,Passenger Elevators and Parts,most common item description in class
+305,"ENGINEERING EQUIPMENT, SURVEYING EQUIPMENT, DRAWIN",class title in source data
+306,"Surveying Instruments and Accessories: Alidades, Compasses,",most common item description in class
+310,"ENVELOPES, PLAIN OR PRINTED",class title in source data
+315,EPOXY CEMENT MANHOLE SEAL SURFACE,most common item description in class
+318,Locks and Keys,most common item description in class
+320,"Cotter Pins, Clevis Pins, Dowel Pins, Spring Pins,",most common item description in class
+325,Dog and Cat Food,most common item description in class
+330,FENCING,most common item description in class
+335,FERTILIZERS AND SOIL CONDITIONERS,class title in source data
+340,FIRE PROTECTION EQUIPMENT AND SUPPLIES,class title in source data
+345,FIRST AID AND SAFETY EQUIPMENT AND SUPPLIES,class title in source data
+350,"FLAGS, FLAG POLES, BANNERS, AND ACCESSORIES",class title in source data
+354,G012     Ear Plugs,most common item description in class
+360,"FLOOR COVERING, FLOOR COVERING INSTALLATION AND RE",class title in source data
+365,"FLOOR MAINTENANCE MACHINES, PARTS, AND ACCESSORIES",class title in source data
+370,"Grease, USDA Approved for Food Processing",most common item description in class
+375,FOODS: BAKERY PRODUCTS (FRESH),most common item description in class
+380,POPSICLES,most common item description in class
+385,Coffee,most common item description in class
+390,"Water, Drinking (Including Distilled)",most common item description in class
+393,FOODS: STAPLE GROCERY AND GROCER'S MISCELLANEOUS I,class title in source data
+395,"Continuous Form Labels, Pressure Sensitive, Custom",most common item description in class
+400,"Castings, Gray Iron",most common item description in class
+405,"FUEL, OIL, GREASE AND LUBRICANTS",class title in source data
+410,"Nursery Equipment and Furniture, Infant",most common item description in class
+415,"Refrigerators, Laboratory, Specialized: Explosion-",most common item description in class
+420,"FURNITURE: CAFETERIA, CHAPEL, DORM, HOUSE, LIBRARY, SCHOOL",class title in source data
+425,FURNITURE: OFFICE,class title in source data
+430,"Welding and Industrial Gases: Acetylene, Argon, Ca",most common item description in class
+435,Sterile Water 500ML Hospira #613903,most common item description in class
+436,"SANITIZERS, HAND, FOAM",most common item description in class
+440,Window Glass,most common item description in class
+445,"HAND TOOLS (POWERED AND NON-POWERED), ACCESSORIES",most common item description in class
+450,HARDWARE AND RELATED ITEMS,class title in source data
+460,HOSE GARDEN 3/4 IN 75 FT LONG,most common item description in class
+465,"DEFIBRILLATOR, EXTERNAL, AUTOMATIC (AED), INCLUDING PARTS AN",most common item description in class
+470,HOSPITAL / RESIDENT SPECIAL EQUIP FOR HANDICAPPED / DISABLED,class title in source data
+475,"HOSPITAL, SURGICAL, AND RELATED MEDICAL ACCESSORIE",class title in source data
+485,"JANITORIAL SUPPLIES, GENERAL LINE",class title in source data
+486,Janitorial Equipment and Supplies (Not Otherwise Classified),most common item description in class
+490,"LAB EQUIP, ACCY SUPPLIES: GEN ANALYTICAL AND RESEARCH",class title in source data
+493,"LAB EQUIP,  ACCY SUPPLIES: BIOCHEM, CHEM, SCIENCE, ETC.",class title in source data
+495,Physiological Testing and Recording Equipment (Sin,most common item description in class
+500,"LAUNDRY AND DRY CLEANING EQUIP, ACCY AND SUPPLIES, COMML",class title in source data
+505,LAUNDRY AND DRY CLEANING COMPOUNDS AND SUPPLIES,class title in source data
+510,"Identification Pins, Tags, etc.",most common item description in class
+515,LAWN MAINT EQUIP AND ACCY,class title in source data
+520,Insert Shoe Molded Anti-Puncture Mens Size 9 to 10,most common item description in class
+525,"Library Supplies, Miscellaneous",most common item description in class
+530,Duffle and Tote Bags,most common item description in class
+540,LUMBER AND RELATED PRODUCTS,class title in source data
+545,"Impact Tools, Air Powered (Not Road Building)",most common item description in class
+550,Parking Meters and Area Control Equipment,most common item description in class
+555,"STENCILS, COMBINATION LETTERS AND NUMBERS",most common item description in class
+556,"Coach, Transit (Touring) Custom",most common item description in class
+557,"Filters: Air, Fuel, Oil, etc.",most common item description in class
+558,"Trolleys, Accessories, and Parts",most common item description in class
+559,"Signage (Incls. Destination, Routing and Advertisi",most common item description in class
+560,"STRAPS, TIE DOWN RATCHET W/ ""U"" HOOK",most common item description in class
+570,"Steel, Reinforcing, Bars and Rods",most common item description in class
+575,Microfiche/Microfilm Reader Printer Supplies: Pape,most common item description in class
+578,MISCELLANEOUS PRODUCTS (NOT OTHERWISE CLASSIFIED),class title in source data
+580,"MUSICAL INSTRUMENTS, ACCESSORIES, AND SUPPLIES",class title in source data
+590,"FASTENERS, VELCRO STRIP",most common item description in class
+595,"NURSERY STOCK, EQUIPMENT, AND SUPPLIES",class title in source data
+600,"Mailing, Packaging, and Shipping Machines (Includi",most common item description in class
+605,"Sealing Machines, Mail Room",most common item description in class
+610,"Ribbons, Computer and Data Processing, All Types (",most common item description in class
+615,"OFFICE SUPPLIES, GENERAL",class title in source data
+620,CRAYON LUMBER YELLOW,most common item description in class
+625,"OPTICAL EQUIPMENT, ACCESSORIES, AND SUPPLIES",class title in source data
+630,"Paints, Traffic",most common item description in class
+635,PAINTING EQUIPMENT AND ACCESSORIES,most common item description in class
+640,"PAPER AND PLASTIC PRODUCTS, DISPOSABLE",class title in source data
+645,Stationery w/Envelopes (Including Recycled),most common item description in class
+650,"PARK, PLAYGROUND, REC AREA AND SWIMMING POOL EQUIP SUPPLIES",class title in source data
+652,D012 POLISH REMOVER PAD. ACETONE FREE.,most common item description in class
+655,PHOTO EQUIP - FILM AND SUPPLIES,class title in source data
+658,"PIPE, TUBING, AND ACCESSORIES (NOT FITTINGS)",class title in source data
+659,PIPE AND TUBING FITTINGS,class title in source data
+660,"PIPES, TOBACCOS, SMOKING ACCESSORIES; ALCOHOLIC BE",class title in source data
+665,BAG PLASTIC LINER 20/30 GALLON 30IN X 36IN,most common item description in class
+670,"PLUMBING EQUIPMENT, FIXTURES, AND SUPPLIES",class title in source data
+675,"INSECTICIDES, DRY",most common item description in class
+680,POLICE EQUIPMENT,class title in source data
+685,"Shipping Boxes, Chick",most common item description in class
+690,"Transmitters, Pressure",most common item description in class
+691,"Motors (AC, DC, Vector Duty, Washdown, Brake, Stai",most common item description in class
+700,Offset Printing (Duplicating and Lithographing) Ma,most common item description in class
+710,"Audiometers, Calibrators, and Accessories (Includi",most common item description in class
+715,"PUBLICATIONS,  A/V MATLS, BOOKS, TEXTBOOKS",class title in source data
+720,PUMPING EQUIPMENT AND ACCESSORIES,class title in source data
+725,"RADIO COMMUNICATION, TELEPHONE, AND TELECOMMUNICAT",class title in source data
+726,"HEADSETS, TWO-WAY RADIO, (BRAND LISTED OR EQUAL)",most common item description in class
+730,RADIO COMMUNICATION AND TELECOMMUNICATION EQUIP,class title in source data
+735,"RAGS, SHOP TOWELS, AND WIPING CLOTHS",class title in source data
+740,"ICEMAKER/STORAGE BIN COMBINATION, COMMERCIAL",most common item description in class
+745,"ASPHALTIC CONCRETE, HOT MIX, IN ACCORDANCE WITH IT",most common item description in class
+750,ROAD AND HIGHWAY BUILDING MATERIALS (NOT ASPHALTIC,class title in source data
+755,"Concrete Cutters, Saws, Multipurpose Saws, and Acc",most common item description in class
+760,"TRACTOR, LOADER, BACKHOE, MEDI",most common item description in class
+765,ROAD AND HIGHWAY EQUIPMENT,class title in source data
+770,ROOFING,most common item description in class
+775,"Salt, Evaporated",most common item description in class
+780,Load Cell Scales,most common item description in class
+785,"SCHOOL EQUIPMENT, TEACHING AIDS,  AND SUPPLIES",class title in source data
+790,Top Soil and Fill Dirt (For Mulch See Class 335),most common item description in class
+795,"SEWING MACHINES, INDUSTRIAL",most common item description in class
+800,SHOES AND BOOTS,class title in source data
+801,"SIGNS, SIGN MATLS, SIGN MAKING EQUIP, AND RELATED SUPPLIES",class title in source data
+803,"SOUND SYSTEMS, COMPONENTS, ACCESSORIES",class title in source data
+804,"Power Systems, Spacecraft, Solar Arrays, Solar Cells, etc.",most common item description in class
+805,"SPORTING GOODS, ATHLETIC EQUIP AND ATHLETIC FACILITY EQUIP",class title in source data
+810,"TIPS, SPRAYER, STANDARD FLAT SPRAY",most common item description in class
+815,"Steam Specialties: Air Vent Valves, Main Vent Valv",most common item description in class
+820,Boiler Parts and Accessories (Not Otherwise Listed,most common item description in class
+825,"Disinfectants (For Animal Pens): Creosote, etc.",most common item description in class
+830,"TANKS (ANY COMPOSITION): MOBILE, STATIONARY, AND U/G TYPES",class title in source data
+832,TAPE DUCT 2 IN. X 60 YDS.,most common item description in class
+838,"PARTS AND ACCESSORIES, TELECOMMUNICATION (PANDUIT OR EQUAL)",most common item description in class
+839,"TELEPHONES, SATELLITE",most common item description in class
+840,TELEVISION EQUIPMENT AND ACCESSORIES,class title in source data
+845,TESTING APPARATUS AND INSTRUMENTS,class title in source data
+850,"BLANKETS, 90% WOOL, 10% MAN MADE FIBER",most common item description in class
+855,"Stages, Theatre (All Types)",most common item description in class
+860,"Tickets, Spitter",most common item description in class
+863,TIRES AND TUBES,class title in source data
+865,TWINE,most common item description in class
+870,"VENETIAN BLINDS, AWNINGS, AND SHADES",class title in source data
+875,VETERINARY EQUIP / SUPPLIES,class title in source data
+880,Audio Visual Equipment and Supplies (Not Otherwise,most common item description in class
+883,Telephone Switching (PBX) Systems,most common item description in class
+885,FERRIC SULFATE (FESO4),most common item description in class
+890,"WATER SUPPLY, GROUNDWATER, SEWAGE TREATMENT, RELATED EQUIP",class title in source data
+895,WELDING EQUIPMENT AND SUPPLIES,class title in source data
+898,X-RAY AND OTHER RADIOLOGICAL EQUIPMENT AND SUPPLIE,most common item description in class
+899,"GOODS, NOT OTHERWISE CLASSIFIED",most common item description in class

@@ -1,0 +1,7 @@
+-r requirements.txt
+# Tests, Excel formula recalculation, screenshot / PDF rendering
+pytest>=8
+formulas>=1.2
+playwright>=1.44
+pypdf>=4
+pyyaml>=6

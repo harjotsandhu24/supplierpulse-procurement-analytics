@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "supplierpulse"
+version = "1.0.0"
+description = "Supplier performance and procurement analytics: spend, concentration, price variance, delivery scorecards and decision support."
+authors = [{ name = "Harjot Sandhu" }]
+license = { text = "MIT" }
+requires-python = ">=3.11"
+dependencies = [
+    "pandas>=2.2",
+    "numpy>=1.26",
+    "duckdb>=1.1",
+    "pyarrow>=15",
+    "openpyxl>=3.1",
+    "plotly>=5.20",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "formulas>=1.2", "playwright>=1.44", "pypdf>=4", "pyyaml>=6"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["slow: recalculates the full Excel workbook (several minutes)"]

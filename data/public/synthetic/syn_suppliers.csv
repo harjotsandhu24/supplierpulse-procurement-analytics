@@ -1,0 +1,15 @@
+supplier_id,supplier_name,primary_category_id,categories_served,design_note,data_origin
+SUP-01,Synthetic Supplier 01,ELEC,ELEC,Largest electrical supplier; delivery deteriorates in year 2,SYNTHETIC
+SUP-02,Synthetic Supplier 02,ELEC,ELEC,Reliable electrical alternative with spare share,SYNTHETIC
+SUP-03,Synthetic Supplier 03,ELEC,ELEC,Very few orders: tests the insufficient-evidence rule,SYNTHETIC
+SUP-04,Synthetic Supplier 04,FLEET,FLEET,Chronically late fleet supplier with unstable lead times,SYNTHETIC
+SUP-05,Synthetic Supplier 05,FLEET,FLEET,Reliable fleet supplier,SYNTHETIC
+SUP-06,Synthetic Supplier 06,MRO,MRO,Excellent MRO supplier holding a large category share,SYNTHETIC
+SUP-07,Synthetic Supplier 07,MRO,MRO,Frequent split and short shipments,SYNTHETIC
+SUP-08,Synthetic Supplier 08,MRO,"MRO, PPE",Generalist serving MRO and PPE,SYNTHETIC
+SUP-09,Synthetic Supplier 09,CHEM,CHEM,"Sole source for water treatment chemicals: good performance, high dependency",SYNTHETIC
+SUP-10,Synthetic Supplier 10,PPE,PPE,Low price but recurring quality rejections,SYNTHETIC
+SUP-11,Synthetic Supplier 11,PPE,PPE,Reliable PPE supplier,SYNTHETIC
+SUP-12,Synthetic Supplier 12,IT,IT,Paid prices drift well above contract,SYNTHETIC
+SUP-13,Synthetic Supplier 13,IT,IT,"Good IT supplier with a small, provisional sample",SYNTHETIC
+SUP-14,Synthetic Supplier 14,FLEET,FLEET,Mid-performing fleet supplier with occasional quality issues,SYNTHETIC

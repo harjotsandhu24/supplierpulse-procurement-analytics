@@ -1,0 +1,15 @@
+rule,exception_type,data_origin,definition
+R1,Single-vendor concentration,Observed - City of Austin,"NIGP class with focus-window spend >= $1,000,000 where one vendor holds >= 90% of spend"
+R2,Highly concentrated category,Observed - City of Austin,"NIGP class with spend >= $1,000,000 and vendor HHI >= 2,500 (not already R1)"
+R3,Vendor share of total spend,Observed - City of Austin,Vendor holding >= 5% of all focus-window spend
+R4,Recurring purchasing outside master agreements,Observed - City of Austin,"NIGP class with >= 10 standalone orders (contract- or PO-type, no master agreement referenced) totalling >= $250,000 in the focus window"
+R5,Purchase price above item-year baseline,Observed - City of Austin,Comparable item-year with lines priced >= 1.5x the item-year median unit price
+R6,Unusual year-over-year price increase,Observed - City of Austin,Comparable item whose median unit price rose >= 25% from one fiscal year to the next
+S1,Chronically late supplier,Synthetic demonstration,OTIF < 80% with >= 30 due lines
+S2,Deteriorating delivery performance,Synthetic demonstration,OTIF fell >= 10% points from the prior 12 months to the last 12 months (>= 30 due lines in each)
+S3,Unstable lead times,Synthetic demonstration,Lead-time standard deviation >= 5.0 days with >= 20 completed lines
+S4,Recurring incomplete deliveries,Synthetic demonstration,In-full rate < 90% with >= 30 due lines
+S5,Quality rejections,Synthetic demonstration,Rejected / received quantity >= 2% with >= 30 due lines
+S6,Paid price above contract (PPV),Synthetic demonstration,Spend-weighted paid price >= 10% above contracted standard price
+S7,Overdue open PO line,Synthetic demonstration,"Open (not cancelled, not short-closed, not fully received) line past its promised date at the as-of date"
+S8,Supplier dependency,Synthetic demonstration,"Sole supplier in a category, or >= 60% of a category's spend, or >= 15% of total spend"

@@ -1,0 +1,15 @@
+supplier_id,supplier_name,due_lines,cancelled_lines,on_time_rate,in_full_rate,otif_rate,late_lines,avg_days_late_when_late,short_closed_lines
+SUP-03,Synthetic Supplier 03,8,0,1.000000,1.000000,1.000000,0,,0
+SUP-13,Synthetic Supplier 13,23,0,1.000000,1.000000,1.000000,0,,0
+SUP-06,Synthetic Supplier 06,488,8,0.987705,0.997951,0.965164,16,5.750000,1
+SUP-09,Synthetic Supplier 09,330,9,0.975758,1.000000,0.960606,13,3.692308,0
+SUP-02,Synthetic Supplier 02,465,7,0.965591,0.997849,0.929032,32,6.343750,1
+SUP-05,Synthetic Supplier 05,421,9,0.952494,1.000000,0.928741,30,4.566667,0
+SUP-11,Synthetic Supplier 11,181,3,0.972376,0.994475,0.928177,12,6.833333,1
+SUP-08,Synthetic Supplier 08,357,8,0.957983,0.994398,0.915966,28,5.785714,2
+SUP-10,Synthetic Supplier 10,209,5,0.937799,0.995215,0.885167,23,5.913043,1
+SUP-12,Synthetic Supplier 12,549,17,0.928962,0.992714,0.879781,62,4.951613,4
+SUP-14,Synthetic Supplier 14,176,5,0.920455,0.977273,0.863636,21,4.190476,3
+SUP-01,Synthetic Supplier 01,854,20,0.823185,0.987119,0.789227,176,15.863636,5
+SUP-07,Synthetic Supplier 07,212,4,0.948113,0.849057,0.679245,37,10.567568,32
+SUP-04,Synthetic Supplier 04,363,9,0.617080,0.969697,0.570248,150,14.400000,10

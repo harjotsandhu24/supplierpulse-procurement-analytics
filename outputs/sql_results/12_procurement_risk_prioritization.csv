@@ -1,0 +1,15 @@
+supplier_id,evidence_status,performance_score,main_category_id,max_category_share,share_of_total_spend,dependency_risk,action_quadrant
+SUP-01,Ranked,44.300000,ELEC,0.738759,0.268053,High,Critical - act now
+SUP-04,Ranked,24.800000,FLEET,0.371256,0.067024,Medium,Develop or replace
+SUP-07,Ranked,40.900000,MRO,0.236281,0.039238,Low,Develop or replace
+SUP-10,Ranked,65.000000,PPE,0.369877,0.039567,Medium,Develop or replace
+SUP-14,Ranked,69.900000,FLEET,0.184028,0.033223,Low,Develop or replace
+SUP-12,Ranked,79.800000,IT,0.962210,0.116987,High,Strategic - protect and monitor
+SUP-09,Ranked,99.400000,CHEM,1.000000,0.062007,High,Strategic - protect and monitor
+SUP-08,Ranked,87.400000,PPE,0.314840,0.068371,Low,Maintain
+SUP-02,Ranked,90.200000,ELEC,0.257683,0.093498,Medium,Maintain
+SUP-11,Ranked,91.300000,PPE,0.315283,0.033727,Low,Maintain
+SUP-05,Ranked,91.500000,FLEET,0.444716,0.080286,Medium,Maintain
+SUP-13,Provisional,92.000000,IT,0.037790,0.004595,Low,Maintain
+SUP-06,Ranked,99.400000,MRO,0.554814,0.092134,Medium,Maintain
+SUP-03,Insufficient evidence,,ELEC,0.003558,0.001291,Low,Insufficient evidence
